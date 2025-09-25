@@ -22,7 +22,7 @@ import router from '@/router'
 
 export const service: AxiosInstance = axios.create({
   // 判断环境设置不同的baseURL
-  baseURL: import.meta.env.PROD ? import.meta.env.VITE_APP_BASE_URL : '/admin',
+  baseURL: import.meta.env.PROD ? import.meta.env.VITE_APP_BASE_URL : '/',
   timeout: ResultEnum.TIMEOUT as number,
 })
 /**
