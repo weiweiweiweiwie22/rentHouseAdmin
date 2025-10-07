@@ -27,7 +27,7 @@
               placeholder="请选择省份"
               clearable
               @change="provinceChangeCallback"
-              @clear="provinceClearCallback"
+              <!-- @clear="provinceClearCallback" -->
             >
               <el-option
                 v-for="item in areaInfo.provinceList"
